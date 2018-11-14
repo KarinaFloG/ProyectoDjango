@@ -1,0 +1,13 @@
+<div>
+	<h1>Inicia sesión</h1>
+<form method="POST">
+	{% csrf_token %}
+	
+	<!--Aquí va el formulario de Django-->
+	{{ form.as_p }}
+	<button type="submit">Iniciar sesión</button>
+	
+</form>
+
+
+</div>
